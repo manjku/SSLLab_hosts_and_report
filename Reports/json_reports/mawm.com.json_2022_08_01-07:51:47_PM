@@ -1,0 +1,35 @@
+{
+  "host": "mawm.com",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1659377498481,
+  "testTime": 1659377573628,
+  "engineVersion": "2.1.10",
+  "criteriaVersion": "2009q",
+  "cacheExpiryTime": 1659378173628,
+  "endpoints": [
+    {
+      "ipAddress": "208.91.197.39",
+      "statusMessage": "Unable to connect to the server",
+      "statusDetails": "TESTING_PROTO_3_3_NO_SNI",
+      "statusDetailsMessage": "Testing TLS 1.2 without SNI",
+      "duration": 74815,
+      "delegation": 1,
+      "details": {
+        "hostStartTime": 1659377498481,
+        "certChains": [],
+        "protocols": [],
+        "prefixDelegation": false,
+        "nonPrefixDelegation": true,
+        "zeroRTTEnabled": -1,
+        "zombiePoodle": 0,
+        "goldenDoodle": 0,
+        "zeroLengthPaddingOracle": 0,
+        "sleepingPoodle": 0
+      }
+    }
+  ],
+  "certs": []
+}
